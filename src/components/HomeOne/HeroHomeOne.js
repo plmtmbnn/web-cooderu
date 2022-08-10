@@ -13,15 +13,14 @@ function HeroHomeOne({ className }) {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="appie-hero-content">
-                                <span>Welcome To Appie</span>
+                                <span>Welcome To Cooderu</span>
                                 <h1 className="appie-title">
-                                    Manage it all, in this all new system.
+                                    We help and prepare a thousand fast adaptive inexperienced tech talent.
                                 </h1>
                                 <p>
-                                    Hanky panky lavatory up the duff jolly good cack brolly is
-                                    chinwag zonked happy days sloshed.
+                                    #GrowProperly
                                 </p>
-                                <ul>
+                                <ul hidden>
                                     <li>
                                         <a href="#">
                                             <i className="fab fa-apple" /> Download for iOS
