@@ -13,12 +13,11 @@ function HeroHomeOne({ className }) {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="appie-hero-content">
-                                <span>Welcome To Cooderu</span>
-                                <h1 className="appie-title">
-                                    We help and prepare a thousand fast adaptive inexperienced tech talent.
-                                </h1>
+                                <span>Welcome To Cooderu | Online Tech Bootcamp</span>
+                                <h1 className="appie-title">#GrowProperly</h1>
                                 <p>
-                                    #GrowProperly
+                                    We help and prepare a thousand fast adaptive inexperienced tech
+                                    talent.
                                 </p>
                                 <ul hidden>
                                     <li>
@@ -42,7 +41,7 @@ function HeroHomeOne({ className }) {
                                     data-wow-duration="2000ms"
                                     data-wow-delay="200ms"
                                 >
-                                    <img src={heroThumbOne} alt="" />
+                                    <img src={heroThumbOne} style={{ height: '20%' }} alt="" />
                                 </div>
                                 <div
                                     className="thumb-2 wow animated fadeInRight"
