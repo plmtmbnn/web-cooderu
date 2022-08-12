@@ -12,9 +12,9 @@ function ServicesHomeOne({ className }) {
                     <div className="col-lg-6">
                         <div className="appie-section-title text-center">
                             <h3 className="appie-title">
-                                Designed with <br /> The applicant in mind.
+                                Designed with <br /> up to date curriculum.
                             </h3>
-                            <p>The full monty spiffing good time no biggie cack grub fantastic. </p>
+                            <p>We help you to adapt faster. </p>
                         </div>
                     </div>
                 </div>
@@ -29,8 +29,8 @@ function ServicesHomeOne({ className }) {
                                 <img src={IconOne} alt="" />
                                 <span>1</span>
                             </div>
-                            <h4 className="appie-title">Searching</h4>
-                            <p>Mucker plastered bugger all mate morish are.</p>
+                            <h4 className="appie-title">Bootcamp</h4>
+                            <p>12 Week (3 session / week) bootcamp class.</p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
@@ -43,8 +43,8 @@ function ServicesHomeOne({ className }) {
                                 <img src={IconTwo} alt="" />
                                 <span>2</span>
                             </div>
-                            <h4 className="appie-title">Designing</h4>
-                            <p>Mucker plastered bugger all mate morish are.</p>
+                            <h4 className="appie-title">Project & Portfolio</h4>
+                            <p>We'll do some project for your portfolio.</p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
@@ -57,8 +57,8 @@ function ServicesHomeOne({ className }) {
                                 <img src={IconThree} alt="" />
                                 <span>3</span>
                             </div>
-                            <h4 className="appie-title">Building</h4>
-                            <p>Mucker plastered bugger all mate morish are.</p>
+                            <h4 className="appie-title">Career Coaching</h4>
+                            <p>We'll boost you convident.</p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
@@ -71,8 +71,8 @@ function ServicesHomeOne({ className }) {
                                 <img src={IconFour} alt="" />
                                 <span>4</span>
                             </div>
-                            <h4 className="appie-title">Suporting</h4>
-                            <p>Mucker plastered bugger all mate morish are.</p>
+                            <h4 className="appie-title">Profesional Job</h4>
+                            <p>We'll connect you to our super tech company.</p>
                         </div>
                     </div>
                 </div>

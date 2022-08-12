@@ -98,10 +98,10 @@ function HomeOneHeader({
                                             LTR
                                         </span>
                                     ))}
-                                <a className="login-btn" href="#">
+                                <a hidden className="login-btn" href="#">
                                     <i className="fal fa-user" /> Login
                                 </a>
-                                <a className="main-btn ml-30" href="#">
+                                <a hidden className="main-btn ml-30" href="#">
                                     Get Started
                                 </a>
                                 <div
