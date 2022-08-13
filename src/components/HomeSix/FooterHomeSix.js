@@ -117,7 +117,7 @@ function FooterHomeSix() {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="footer-copyright d-flex align-items-center justify-content-between pt-35">
-                                <div className="apps-download-btn">
+                                <div className="apps-download-btn" hidden>
                                     <ul>
                                         <li>
                                             <a href="#">
@@ -133,7 +133,7 @@ function FooterHomeSix() {
                                     </ul>
                                 </div>
                                 <div className="copyright-text">
-                                    <p>Copyright © 2021 Appie. All rights reserved.</p>
+                                    <p>Copyright © 2022 Cooderu. All rights reserved.</p>
                                 </div>
                             </div>
                         </div>

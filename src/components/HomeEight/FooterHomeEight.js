@@ -126,7 +126,7 @@ function FooterHomeEight() {
                 pt-35
               "
                             >
-                                <div className="apps-download-btn">
+                                <div className="apps-download-btn" hidden>
                                     <ul>
                                         <li>
                                             <a href="#">
@@ -142,7 +142,7 @@ function FooterHomeEight() {
                                     </ul>
                                 </div>
                                 <div className="copyright-text">
-                                    <p>Copyright © 2021 Appie. All rights reserved.</p>
+                                    <p>Copyright © 2022 Cooderu. All rights reserved.</p>
                                 </div>
                             </div>
                         </div>

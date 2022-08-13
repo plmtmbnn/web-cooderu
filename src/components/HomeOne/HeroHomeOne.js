@@ -34,7 +34,7 @@ function HeroHomeOne({ className }) {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6" hidden>
                             <div className="appie-hero-thumb">
                                 <div
                                     className="thumb wow animated fadeInUp"
