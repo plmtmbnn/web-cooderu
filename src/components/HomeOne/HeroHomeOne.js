@@ -15,7 +15,7 @@ function HeroHomeOne({ className }) {
                             <div className="appie-hero-content">
                                 <span>Welcome To Cooderu | Online Tech Bootcamp</span>
                                 <h1 className="appie-title">
-                                    Open Registation <br />
+                                    Open Registration <br />
                                     <span style={{ color: '#a4d514' }}>Batch 2</span> <br />
                                     Coming Soon
                                 </h1>
