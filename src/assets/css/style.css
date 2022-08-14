@@ -174,12 +174,10 @@
 
 .wa-float {
   position: fixed;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 63px;
   bottom: 40px;
-  right: 40px;
-  border-radius: 50px;
-  text-align: center;
+  right: 80px;
   cursor: pointer;
 }
 

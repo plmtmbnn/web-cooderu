@@ -38,8 +38,8 @@ function HeroHomeOne({ className }) {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-6" hidden>
-                            <div className="appie-hero-thumb">
+                        <div className="col-lg-6">
+                            <div className="appie-hero-thumb" hidden>
                                 <div
                                     className="thumb wow animated fadeInUp"
                                     data-wow-duration="2000ms"
