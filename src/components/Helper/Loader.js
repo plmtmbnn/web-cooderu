@@ -15,7 +15,7 @@ function Loader() {
             viewBox="0 0 100 100"
             preserveAspectRatio="xMidYMid"
         >
-            <circle cx="50" cy="50" r="0" fill="none" stroke="#e90c59" strokeWidth="2">
+            <circle cx="50" cy="50" r="0" fill="none" stroke="#03282e" strokeWidth="2">
                 <animate
                     attributeName="r"
                     repeatCount="indefinite"
@@ -37,7 +37,7 @@ function Loader() {
                     begin="0s"
                 ></animate>
             </circle>
-            <circle cx="50" cy="50" r="0" fill="none" stroke="#46dff0" strokeWidth="2">
+            <circle cx="50" cy="50" r="0" fill="none" stroke="#b0df14" strokeWidth="2">
                 <animate
                     attributeName="r"
                     repeatCount="indefinite"
