@@ -14,6 +14,7 @@ import HomeOneHeader from './HomeOneHeader';
 // import TeamHomeOne from './TeamHomeOne';
 // import TestimonialHomeOne from './TestimonialHomeOne';
 // import TrafficHomeOne from './TrafficHomeOne';
+import WhatsappButton from '../FloatButton/WhatsappButton';
 
 function HomeOne() {
     const [drawer, drawerAction] = useToggle(false);
@@ -23,6 +24,7 @@ function HomeOne() {
             <Drawer drawer={drawer} action={drawerAction.toggle} />
             <HomeOneHeader action={drawerAction.toggle} />
             <HeroHomeOne />
+            <WhatsappButton />
             {/* <ServicesHomeOne /> */}
             {/* <FeaturesHomeOne /> */}
             {/* <TrafficHomeOne /> */}
