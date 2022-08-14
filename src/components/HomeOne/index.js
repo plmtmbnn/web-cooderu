@@ -5,7 +5,7 @@ import Drawer from '../Mobile/Drawer';
 // import BlogHomeOne from './BlogHomeOne';
 // import FaqHomeOne from './FaqHomeOne';
 // import FeaturesHomeOne from './FeaturesHomeOne';
-// import FooterHomeOne from './FooterHomeOne';
+import FooterHomeOne from './FooterHomeOne';
 import HeroHomeOne from './HeroHomeOne';
 import HomeOneHeader from './HomeOneHeader';
 // import PricingHomeOne from './PricingHomeOne';
@@ -33,7 +33,7 @@ function HomeOne() {
             {/* <FaqHomeOne /> */}
             {/* <BlogHomeOne /> */}
             {/* <ProjectHomeOne /> */}
-            {/* <FooterHomeOne /> */}
+            <FooterHomeOne />
             <BackToTop />
             <WhatsappButton />
         </>
