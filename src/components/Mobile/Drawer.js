@@ -169,7 +169,7 @@ function Drawer({ drawer, action, lang }) {
                                             </ul>
                                         </div>
                                         <div className="offcanvas-social">
-                                            <ul className="text-center">
+                                            <ul className="text-center" hidden>
                                                 <li>
                                                     <a href="$">
                                                         <i className="fab fa-facebook-f"></i>
@@ -245,7 +245,7 @@ function Drawer({ drawer, action, lang }) {
                                             <img src={logo} alt="" />
                                         </div>
                                         <div id="menu" className="text-left ">
-                                            <ul className="offcanvas_main_menu">
+                                            <ul className="offcanvas_main_menu" hidden>
                                                 <li
                                                     onClick={(e) => handler(e, 'home')}
                                                     id="home"
@@ -368,7 +368,7 @@ function Drawer({ drawer, action, lang }) {
                                             </ul>
                                         </div>
                                         <div className="offcanvas-social">
-                                            <ul className="text-center">
+                                            <ul className="text-center" hidden>
                                                 <li>
                                                     <a href="$">
                                                         <i className="fab fa-facebook-f"></i>
