@@ -13,7 +13,10 @@ function FaqHomeOne({ className }) {
                         <div className="col-lg-12">
                             <div className="appie-section-title text-center">
                                 <h3 className="appie-title">Frequently asked questions</h3>
-                                <p>Different layouts and styles for team sections.</p>
+                                <p>
+                                    For further information, contact us by clicking the Whatsapp
+                                    button.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -34,7 +37,7 @@ function FaqHomeOne({ className }) {
                                     >
                                         <div className="accrodion-inner">
                                             <div className="accrodion-title">
-                                                <h4>Where do I usually find FAQs in a page?</h4>
+                                                <h4>Apakah bootcamp ini berbayar?</h4>
                                             </div>
                                             <div
                                                 className="accrodion-content"
@@ -44,9 +47,10 @@ function FaqHomeOne({ className }) {
                                             >
                                                 <div className="inner">
                                                     <p>
-                                                        Naff Oxford vagabond in my flat chinwag
-                                                        blatant grub tomfoolery that I bits and bobs
-                                                        up the duff cras boot bevvy no biggie.
+                                                        Betul sebesar Rp 5.500.000 (lima juta lima
+                                                        ratus ribu rupiah). Denga 3 metode bayar,
+                                                        cash 100%, study first paylater dan Income
+                                                        Share Agreement (ISA)
                                                     </p>
                                                 </div>
                                             </div>
@@ -58,7 +62,10 @@ function FaqHomeOne({ className }) {
                                     >
                                         <div className="accrodion-inner">
                                             <div className="accrodion-title">
-                                                <h4>Where do I usually find FAQs in a page?</h4>
+                                                <h4>
+                                                    Berapa lama waktu belajar 1 periode bootcamp
+                                                    sampai selesai?
+                                                </h4>
                                             </div>
                                             <div
                                                 className="accrodion-content"
@@ -68,9 +75,9 @@ function FaqHomeOne({ className }) {
                                             >
                                                 <div className="inner">
                                                     <p>
-                                                        Naff Oxford vagabond in my flat chinwag
-                                                        blatant grub tomfoolery that I bits and bobs
-                                                        up the duff cras boot bevvy no biggie.
+                                                        1 periode bootcamp digelar selama 12 minggu.
+                                                        Per minggu akan 3 kali pertemuan. 1
+                                                        pertemuan 2-3 jam. (Jam 19.00 - 22.00 WIB)
                                                     </p>
                                                 </div>
                                             </div>
@@ -95,7 +102,7 @@ function FaqHomeOne({ className }) {
                                     >
                                         <div className="accrodion-inner">
                                             <div className="accrodion-title">
-                                                <h4>Where do I usually find FAQs in a page?</h4>
+                                                <h4>Apakah bootcamp ini full online?</h4>
                                             </div>
                                             <div
                                                 className="accrodion-content"
@@ -105,9 +112,8 @@ function FaqHomeOne({ className }) {
                                             >
                                                 <div className="inner">
                                                     <p>
-                                                        Naff Oxford vagabond in my flat chinwag
-                                                        blatant grub tomfoolery that I bits and bobs
-                                                        up the duff cras boot bevvy no biggie.
+                                                        Benar, untuk saat ini tiap pertemuan digelar
+                                                        online pada malam hari.
                                                     </p>
                                                 </div>
                                             </div>
@@ -119,7 +125,7 @@ function FaqHomeOne({ className }) {
                                     >
                                         <div className="accrodion-inner">
                                             <div className="accrodion-title">
-                                                <h4>Where do I usually find FAQs in a page?</h4>
+                                                <h4>Apakah ada program hiring?</h4>
                                             </div>
                                             <div
                                                 className="accrodion-content"
@@ -129,9 +135,9 @@ function FaqHomeOne({ className }) {
                                             >
                                                 <div className="inner">
                                                     <p>
-                                                        Naff Oxford vagabond in my flat chinwag
-                                                        blatant grub tomfoolery that I bits and bobs
-                                                        up the duff cras boot bevvy no biggie.
+                                                        Diakhir periode bootcamp akan digelar hiring
+                                                        bersama perusahaan tekonologi (partner
+                                                        Cooderu)
                                                     </p>
                                                 </div>
                                             </div>
@@ -144,7 +150,7 @@ function FaqHomeOne({ className }) {
                             <div className="faq-text text-center pt-40">
                                 <p>
                                     Can't find an answer?{' '}
-                                    <a href="mailto:demo@gmail.com">Email us</a>
+                                    <a href="mailto:hellocooderu@gmail.com">Email us</a>
                                 </p>
                             </div>
                         </div>

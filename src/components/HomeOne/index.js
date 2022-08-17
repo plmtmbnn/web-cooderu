@@ -3,15 +3,15 @@ import useToggle from '../../Hooks/useToggle';
 import BackToTop from '../BackToTop';
 import Drawer from '../Mobile/Drawer';
 // import BlogHomeOne from './BlogHomeOne';
-// import FaqHomeOne from './FaqHomeOne';
+import FaqHomeOne from './FaqHomeOne';
 // import FeaturesHomeOne from './FeaturesHomeOne';
 import FooterHomeOne from './FooterHomeOne';
 import HeroHomeOne from './HeroHomeOne';
 import HomeOneHeader from './HomeOneHeader';
-// import PricingHomeOne from './PricingHomeOne';
+import PricingHomeOne from './PricingHomeOne';
 // import ProjectHomeOne from './ProjectHomeOne';
 import ServicesHomeOne from './ServicesHomeOne';
-// import TeamHomeOne from './TeamHomeOne';
+import TeamHomeOne from './TeamHomeOne';
 // import TestimonialHomeOne from './TestimonialHomeOne';
 // import TrafficHomeOne from './TrafficHomeOne';
 import WhatsappButton from '../FloatButton/WhatsappButton';
@@ -28,9 +28,9 @@ function HomeOne() {
             {/* <FeaturesHomeOne /> */}
             {/* <TrafficHomeOne /> */}
             {/* <TestimonialHomeOne /> */}
-            {/* <TeamHomeOne /> */}
-            {/* <PricingHomeOne /> */}
-            {/* <FaqHomeOne /> */}
+            <PricingHomeOne />
+            <FaqHomeOne />
+            <TeamHomeOne />
             {/* <BlogHomeOne /> */}
             {/* <ProjectHomeOne /> */}
             <FooterHomeOne />
