@@ -197,20 +197,20 @@ function Drawer({ drawer, action, lang }) {
                                                 <li>
                                                     <a href="#">
                                                         <i className="fal fa-envelope"></i>
-                                                        support@appie.com
+                                                        hello.cooderu@gmail.com
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
-                                                        <i className="fal fa-phone"></i> +(642) 342
-                                                        762 44
+                                                        <i className="fal fa-phone"></i> +(62) 813
+                                                        1498 4021
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
                                                         <i className="fal fa-map-marker-alt"></i>
-                                                        442 Belle Terre St Floor 7, San Francisco,
-                                                        AV 4206
+                                                        Menara Citicon, Jl. S. Parman Kav 72,
+                                                        Jakarta Barat, Indonesia.
                                                     </a>
                                                 </li>
                                             </ul>
@@ -396,20 +396,20 @@ function Drawer({ drawer, action, lang }) {
                                                 <li>
                                                     <a href="#">
                                                         <i className="fal fa-envelope"></i>
-                                                        support@appie.com
+                                                        hello.cooderu@gmail.com
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
-                                                        <i className="fal fa-phone"></i> +(642) 342
-                                                        762 44
+                                                        <i className="fal fa-phone"></i> +(62) 813
+                                                        1498 4021
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
                                                         <i className="fal fa-map-marker-alt"></i>
-                                                        442 Belle Terre St Floor 7, San Francisco,
-                                                        AV 4206
+                                                        Menara Citicon, Jl. S. Parman Kav 72,
+                                                        Jakarta Barat, Indonesia.
                                                     </a>
                                                 </li>
                                             </ul>

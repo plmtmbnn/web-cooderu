@@ -38,9 +38,10 @@ function HeroHomeOne({ className }) {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-6">
-                            <div className="appie-hero-thumb" hidden>
+                        <div className="col-lg-6" hidden>
+                            <div className="appie-hero-thumb">
                                 <div
+                                    hidden
                                     className="thumb wow animated fadeInUp"
                                     data-wow-duration="2000ms"
                                     data-wow-delay="200ms"
@@ -48,6 +49,7 @@ function HeroHomeOne({ className }) {
                                     <img src={heroThumbOne} style={{ height: '20%' }} alt="" />
                                 </div>
                                 <div
+                                    hidden
                                     className="thumb-2 wow animated fadeInRight"
                                     data-wow-duration="2000ms"
                                     data-wow-delay="600ms"

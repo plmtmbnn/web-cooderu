@@ -16,12 +16,13 @@ function FooterHomeOne({ className }) {
                                     </a>
                                 </div>
                                 <p>
-                                    Appie WordPress is theme is the last theme you will ever have.
+                                    We help and prepare a thousand fast adaptive inexperienced tech
+                                    talent.
                                 </p>
                                 <a href="#">
                                     Read More <i className="fal fa-arrow-right" />
                                 </a>
-                                <div className="social mt-30">
+                                <div className="social mt-30" hidden>
                                     <ul>
                                         <li>
                                             <a href="#">
@@ -48,7 +49,7 @@ function FooterHomeOne({ className }) {
                             </div>
                         </div>
                         <div className="col-lg-2 col-md-6">
-                            <div className="footer-navigation">
+                            <div className="footer-navigation" hidden>
                                 <h4 className="title">Company</h4>
                                 <ul>
                                     <li>
@@ -70,7 +71,7 @@ function FooterHomeOne({ className }) {
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
-                            <div className="footer-navigation">
+                            <div className="footer-navigation" hidden>
                                 <h4 className="title">Support</h4>
                                 <ul>
                                     <li>
@@ -97,18 +98,19 @@ function FooterHomeOne({ className }) {
                                 <ul>
                                     <li>
                                         <a href="#">
-                                            <i className="fal fa-envelope" /> support@appie.com
+                                            <i className="fal fa-envelope" />{' '}
+                                            hello.cooderu@gmail.com
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <i className="fal fa-phone" /> +(642) 342 762 44
+                                            <i className="fal fa-phone" /> +(62) 813 1498 4021
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <i className="fal fa-map-marker-alt" /> 442 Belle Terre
-                                            St Floor 7, San Francisco, AV 4206
+                                            <i className="fal fa-map-marker-alt" /> Menara Citicon,
+                                            Jl. S. Parman Kav 72, Jakarta Barat, Indonesia.
                                         </a>
                                     </li>
                                 </ul>

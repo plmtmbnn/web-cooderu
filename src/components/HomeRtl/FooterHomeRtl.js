@@ -94,18 +94,19 @@ function FooterHomeRtl({ className }) {
                                 <ul>
                                     <li>
                                         <a href="#">
-                                            <i className="fal fa-envelope" /> support@appie.com
+                                            <i className="fal fa-envelope" />{' '}
+                                            hello.cooderu@gmail.com
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <i className="fal fa-phone" /> +(642) 342 762 44
+                                            <i className="fal fa-phone" /> +(62) 813 1498 4021
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <i className="fal fa-map-marker-alt" /> 442 Belle Terre
-                                            St Floor 7, San Francisco, AV 4206
+                                            <i className="fal fa-map-marker-alt" /> Menara Citicon,
+                                            Jl. S. Parman Kav 72, Jakarta Barat, Indonesia.
                                         </a>
                                     </li>
                                 </ul>
