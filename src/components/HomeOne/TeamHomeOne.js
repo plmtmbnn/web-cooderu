@@ -26,7 +26,13 @@ function TeamHomeOne({ className }) {
                                 data-wow-delay="200ms"
                             >
                                 <div className="thumb">
-                                    <img src={teamOne} alt="" />
+                                    <img
+                                        src={teamOne}
+                                        alt=""
+                                        style={{
+                                            filter: 'grayscale(90%)',
+                                        }}
+                                    />
                                     <ul>
                                         <li>
                                             <a href="#">
@@ -58,7 +64,13 @@ function TeamHomeOne({ className }) {
                                 data-wow-delay="200ms"
                             >
                                 <div className="thumb">
-                                    <img src={teamTwo} alt="" />
+                                    <img
+                                        src={teamTwo}
+                                        alt=""
+                                        style={{
+                                            filter: 'grayscale(90%)',
+                                        }}
+                                    />
                                     <ul>
                                         <li>
                                             <a href="#">
@@ -90,7 +102,13 @@ function TeamHomeOne({ className }) {
                                 data-wow-delay="400ms"
                             >
                                 <div className="thumb">
-                                    <img src={teamThree} alt="" />
+                                    <img
+                                        src={teamThree}
+                                        alt=""
+                                        style={{
+                                            filter: 'grayscale(90%)',
+                                        }}
+                                    />
                                     <ul>
                                         <li>
                                             <a href="#">
@@ -122,7 +140,13 @@ function TeamHomeOne({ className }) {
                                 data-wow-delay="600ms"
                             >
                                 <div className="thumb">
-                                    <img src={teamFour} alt="" />
+                                    <img
+                                        src={teamFour}
+                                        alt=""
+                                        style={{
+                                            filter: 'grayscale(90%)',
+                                        }}
+                                    />
                                     <ul>
                                         <li>
                                             <a href="#">
@@ -154,7 +178,13 @@ function TeamHomeOne({ className }) {
                                 data-wow-delay="800ms"
                             >
                                 <div className="thumb">
-                                    <img src={teamFive} alt="" />
+                                    <img
+                                        src={teamFive}
+                                        alt=""
+                                        style={{
+                                            filter: 'grayscale(90%)',
+                                        }}
+                                    />
                                     <ul>
                                         <li>
                                             <a href="#">
