@@ -15,6 +15,7 @@ import TeamHomeOne from './TeamHomeOne';
 // import TestimonialHomeOne from './TestimonialHomeOne';
 // import TrafficHomeOne from './TrafficHomeOne';
 import WhatsappButton from '../FloatButton/WhatsappButton';
+import SponserHomeTwo from './SponserHomeTwo';
 
 function HomeOne() {
     const [drawer, drawerAction] = useToggle(false);
@@ -31,6 +32,7 @@ function HomeOne() {
             <PricingHomeOne />
             <FaqHomeOne />
             <TeamHomeOne />
+            <SponserHomeTwo />
             {/* <BlogHomeOne /> */}
             {/* <ProjectHomeOne /> */}
             <FooterHomeOne />
