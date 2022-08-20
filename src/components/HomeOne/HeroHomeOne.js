@@ -1,6 +1,5 @@
 import React from 'react';
 import heroThumbOne from '../../assets/images/hero-thumb-1.png';
-import heroThumbTwo from '../../assets/images/hero-thumb-2.png';
 import shapeTwo from '../../assets/images/shape/shape-2.png';
 import shapeThree from '../../assets/images/shape/shape-3.png';
 import shapeFour from '../../assets/images/shape/shape-4.png';
@@ -38,25 +37,8 @@ function HeroHomeOne({ className }) {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-6" hidden>
-                            <div className="appie-hero-thumb">
-                                <div
-                                    hidden
-                                    className="thumb wow animated fadeInUp"
-                                    data-wow-duration="2000ms"
-                                    data-wow-delay="200ms"
-                                >
-                                    <img src={heroThumbOne} style={{ height: '20%' }} alt="" />
-                                </div>
-                                <div
-                                    hidden
-                                    className="thumb-2 wow animated fadeInRight"
-                                    data-wow-duration="2000ms"
-                                    data-wow-delay="600ms"
-                                >
-                                    <img src={heroThumbTwo} alt="" />
-                                </div>
-                            </div>
+                        <div className="col-lg-6">
+                            <img src={heroThumbOne} style={{ height: '20%' }} alt="" />
                         </div>
                     </div>
                 </div>

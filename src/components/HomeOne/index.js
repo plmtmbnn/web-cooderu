@@ -25,11 +25,11 @@ function HomeOne() {
             <Drawer drawer={drawer} action={drawerAction.toggle} />
             <HomeOneHeader action={drawerAction.toggle} />
             <HeroHomeOne />
+            <PricingHomeOne />
             <ServicesHomeOne />
             {/* <FeaturesHomeOne /> */}
             {/* <TrafficHomeOne /> */}
             {/* <TestimonialHomeOne /> */}
-            <PricingHomeOne />
             <FaqHomeOne />
             <TeamHomeOne />
             <SponserHomeTwo />
