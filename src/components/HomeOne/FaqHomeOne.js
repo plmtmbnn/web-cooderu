@@ -77,7 +77,7 @@ function FaqHomeOne({ className }) {
                                                     <p>
                                                         1 periode bootcamp digelar selama 12 minggu.
                                                         Per minggu akan 3 kali pertemuan. 1
-                                                        pertemuan 2-3 jam. (Jam 19.00 - 22.00 WIB)
+                                                        pertemuan 2-3 jam.
                                                     </p>
                                                 </div>
                                             </div>
