@@ -53,7 +53,7 @@ function TeamHomeOne({ className }) {
                                 </div>
                                 <div className="content text-center">
                                     <h5 className="title">Polma Tambunan</h5>
-                                    <span>CO-Founder</span>
+                                    <span>Founder</span>
                                 </div>
                             </div>
                         </div>

@@ -12,16 +12,27 @@ function HeroHomeOne({ className }) {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="appie-hero-content">
-                                <span>Welcome To Cooderu | Online Tech Bootcamp</span>
+                                <span>
+                                    Cooderu - Online Frontend & Backend Bootcamp <hr />
+                                </span>
                                 <h1 className="appie-title">
-                                    Open Registration <br />
+                                    Telah dibuka pendaftaran <br />
                                     <span style={{ color: '#a4d514' }}>Batch 2</span> <br />
-                                    Coming Soon
                                 </h1>
-                                <p>
-                                    We help and prepare a thousand fast adaptive inexperienced tech
-                                    talent.
-                                </p>
+                                <h3>
+                                    Sampai{' '}
+                                    <span
+                                        style={{
+                                            'text-decoration': 'underline',
+                                            'text-decoration-color': '#a4d514',
+                                            background: '#a4d514',
+                                        }}
+                                    >
+                                        26 Sept 2022
+                                    </span>
+                                </h3>{' '}
+                                <hr />
+                                <p></p>
                                 <ul hidden>
                                     <li>
                                         <a href="#">
