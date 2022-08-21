@@ -4,7 +4,7 @@ import BackToTop from '../BackToTop';
 import Drawer from '../Mobile/Drawer';
 // import BlogHomeOne from './BlogHomeOne';
 import FaqHomeOne from './FaqHomeOne';
-import FeaturesHomeOne from './FeaturesHomeOne';
+// import FeaturesHomeOne from './FeaturesHomeOne';
 import FooterHomeOne from './FooterHomeOne';
 import HeroHomeOne from './HeroHomeOne';
 import HomeOneHeader from './HomeOneHeader';
@@ -16,6 +16,7 @@ import TeamHomeOne from './TeamHomeOne';
 // import TrafficHomeOne from './TrafficHomeOne';
 import WhatsappButton from '../FloatButton/WhatsappButton';
 import SponserHomeTwo from './SponserHomeTwo';
+import ServicesAbout from './ServicesAbout';
 
 function HomeOne() {
     const [drawer, drawerAction] = useToggle(false);
@@ -27,7 +28,8 @@ function HomeOne() {
             <HeroHomeOne />
             <PricingHomeOne />
             <ServicesHomeOne />
-            <FeaturesHomeOne />
+            <ServicesAbout />
+            {/* <FeaturesHomeOne /> */}
             {/* <TrafficHomeOne /> */}
             {/* <TestimonialHomeOne /> */}
             <FaqHomeOne />
