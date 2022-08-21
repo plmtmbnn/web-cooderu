@@ -4,7 +4,7 @@ import BackToTop from '../BackToTop';
 import Drawer from '../Mobile/Drawer';
 // import BlogHomeOne from './BlogHomeOne';
 import FaqHomeOne from './FaqHomeOne';
-// import FeaturesHomeOne from './FeaturesHomeOne';
+import FeaturesHomeOne from './FeaturesHomeOne';
 import FooterHomeOne from './FooterHomeOne';
 import HeroHomeOne from './HeroHomeOne';
 import HomeOneHeader from './HomeOneHeader';
@@ -27,7 +27,7 @@ function HomeOne() {
             <HeroHomeOne />
             <PricingHomeOne />
             <ServicesHomeOne />
-            {/* <FeaturesHomeOne /> */}
+            <FeaturesHomeOne />
             {/* <TrafficHomeOne /> */}
             {/* <TestimonialHomeOne /> */}
             <FaqHomeOne />
