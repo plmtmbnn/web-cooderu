@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import thumb from '../../assets/images/features-thumb-1.png';
+import thumbBe from '../../assets/images/features-thumb-be.png';
+import thumbFe from '../../assets/images/features-thumb-fe.png';
 import shapeSix from '../../assets/images/shape/shape-6.png';
 import shapeSeven from '../../assets/images/shape/shape-7.png';
 import shapeEight from '../../assets/images/shape/shape-8.png';
@@ -33,7 +33,7 @@ function FeaturesHomeOne({ className }) {
                                     aria-controls="v-pills-home"
                                     aria-selected="true"
                                 >
-                                    <i className="fas fa-cog" /> Settings
+                                    <i className="fas fa-brackets-curly" /> Backend Bootcamp
                                 </a>
                                 <a
                                     onClick={(e) => handleClick(e, 'report')}
@@ -45,31 +45,7 @@ function FeaturesHomeOne({ className }) {
                                     aria-controls="v-pills-profile"
                                     aria-selected="false"
                                 >
-                                    <i className="fas fa-exclamation-triangle" /> Report
-                                </a>
-                                <a
-                                    onClick={(e) => handleClick(e, 'notice')}
-                                    className={`nav-link ${tab === 'notice' ? 'active' : ''}`}
-                                    id="v-pills-messages-tab"
-                                    data-toggle="pill"
-                                    href="#v-pills-messages"
-                                    role="tab"
-                                    aria-controls="v-pills-messages"
-                                    aria-selected="false"
-                                >
-                                    <i className="fas fa-bell" /> Saeety Notices
-                                </a>
-                                <a
-                                    onClick={(e) => handleClick(e, 'app')}
-                                    className={`nav-link ${tab === 'app' ? 'active' : ''}`}
-                                    id="v-pills-settings-tab"
-                                    data-toggle="pill"
-                                    href="#v-pills-settings"
-                                    role="tab"
-                                    aria-controls="v-pills-settings"
-                                    aria-selected="false"
-                                >
-                                    <i className="fas fa-lock" /> App Lock
+                                    <i className="fas fa-palette" /> Frontend Bootcamp
                                 </a>
                             </div>
                         </div>
@@ -91,7 +67,7 @@ function FeaturesHomeOne({ className }) {
                                             data-wow-duration="2000ms"
                                             data-wow-delay="200ms"
                                         >
-                                            <img src={thumb} alt="" />
+                                            <img src={thumbBe} alt="" />
                                         </div>
                                     </div>
                                     <div className="col-lg-6">
@@ -100,17 +76,18 @@ function FeaturesHomeOne({ className }) {
                                             data-wow-duration="2000ms"
                                             data-wow-delay="600ms"
                                         >
-                                            <span>Custom Reacyions</span>
-                                            <h3 className="title">
-                                                Let the <br /> Conversation flow
-                                            </h3>
+                                            <span>Program Bootcamp</span>
+                                            <h3 className="title">Backend Developer</h3>
                                             <p>
-                                                Car boot absolutely bladdered posh burke the
-                                                wireless mush some dodg.
+                                                Train and improve the skills you need to start a
+                                                career as a reliable Front End Developer in 12
+                                                weeks. <br />
+                                                <br />
+                                                101 JS, Nodejs, API, Middleware, and may more.
                                             </p>
-                                            <Link className="main-btn" to="/about-us">
-                                                Learn More
-                                            </Link>
+                                            <button type="submit" className="main-btn">
+                                                Syllabus
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
@@ -128,7 +105,7 @@ function FeaturesHomeOne({ className }) {
                                             data-wow-duration="2000ms"
                                             data-wow-delay="200ms"
                                         >
-                                            <img src={thumb} alt="" />
+                                            <img src={thumbFe} alt="" />
                                         </div>
                                     </div>
                                     <div className="col-lg-6">
@@ -137,91 +114,18 @@ function FeaturesHomeOne({ className }) {
                                             data-wow-duration="2000ms"
                                             data-wow-delay="600ms"
                                         >
-                                            <span>Custom Reacyions</span>
-                                            <h3 className="title">
-                                                Let the <br /> Conversation flow
-                                            </h3>
+                                            <span>Program Bootcamp</span>
+                                            <h3 className="title">Frontend Developer</h3>
                                             <p>
-                                                Car boot absolutely bladdered posh burke the
-                                                wireless mush some dodg.
+                                                Train and improve the skills you need to start a
+                                                career as a reliable Back End Developer in 12 weeks.
+                                                <br />
+                                                <br />
+                                                101 HTML, CSS, JS, ReactJS and may more.
                                             </p>
-                                            <a className="main-btn" href="#">
-                                                Learn More
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div
-                                className={`${tab === 'notice' ? 'show active' : ''} tab-pane fade`}
-                                id="v-pills-messages"
-                                role="tabpanel"
-                                aria-labelledby="v-pills-messages-tab"
-                            >
-                                <div className="row align-items-center">
-                                    <div className="col-lg-6">
-                                        <div
-                                            className="appie-features-thumb text-center animated fadeInUp"
-                                            data-wow-duration="2000ms"
-                                            data-wow-delay="200ms"
-                                        >
-                                            <img src={thumb} alt="" />
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-6">
-                                        <div
-                                            className="appie-features-content animated fadeInRight"
-                                            data-wow-duration="2000ms"
-                                            data-wow-delay="600ms"
-                                        >
-                                            <span>Custom Reacyions</span>
-                                            <h3 className="title">
-                                                Let the <br /> Conversation flow
-                                            </h3>
-                                            <p>
-                                                Car boot absolutely bladdered posh burke the
-                                                wireless mush some dodg.
-                                            </p>
-                                            <a className="main-btn" href="#">
-                                                Learn More
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div
-                                className={`${tab === 'app' ? 'show active' : ''} tab-pane fade`}
-                                id="v-pills-settings"
-                                role="tabpanel"
-                                aria-labelledby="v-pills-settings-tab"
-                            >
-                                <div className="row align-items-center">
-                                    <div className="col-lg-6">
-                                        <div
-                                            className="appie-features-thumb text-center animated fadeInUp"
-                                            data-wow-duration="2000ms"
-                                            data-wow-delay="200ms"
-                                        >
-                                            <img src={thumb} alt="" />
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-6">
-                                        <div
-                                            className="appie-features-content animated fadeInRight"
-                                            data-wow-duration="2000ms"
-                                            data-wow-delay="600ms"
-                                        >
-                                            <span>Custom Reacyions</span>
-                                            <h3 className="title">
-                                                Let the <br /> Conversation flow
-                                            </h3>
-                                            <p>
-                                                Car boot absolutely bladdered posh burke the
-                                                wireless mush some dodg.
-                                            </p>
-                                            <a className="main-btn" href="#">
-                                                Learn More
-                                            </a>
+                                            <button type="submit" className="main-btn">
+                                                Syllabus
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
