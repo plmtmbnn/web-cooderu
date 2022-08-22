@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import logo7 from '../../assets/images/logo-7.png';
 import logo from '../../assets/images/logo.png';
 import StickyMenu from '../../lib/StickyMenu';
-import Navigation from '../Navigation';
+import Navigation from './Navigation';
 
 function HomeOneHeader({
     lang,
@@ -36,7 +36,7 @@ function HomeOneHeader({
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-1 col-sm-1 order-3 order-sm-2">
-                            <div className="appie-header-main-menu" hidden>
+                            <div className="appie-header-main-menu">
                                 <Navigation />
                             </div>
                         </div>

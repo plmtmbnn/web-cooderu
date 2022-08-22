@@ -6,7 +6,7 @@ function FaqHomeOne({ className }) {
         setQues(value);
     };
     return (
-        <>
+        <div id="faq-page">
             <section className={`appie-faq-area pb-95 ${className || ''}`}>
                 <div className="container">
                     <div className="row">
@@ -157,7 +157,7 @@ function FaqHomeOne({ className }) {
                     </div>
                 </div>
             </section>
-        </>
+        </div>
     );
 }
 
