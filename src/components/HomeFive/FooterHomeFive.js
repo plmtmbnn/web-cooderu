@@ -104,7 +104,7 @@ function FooterHomeFive() {
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <i className="fal fa-phone"></i> +(62) 813 1498 4021
+                                            <i className="fal fa-phone"></i> +(62) 812 8396 8844
                                         </a>
                                     </li>
                                     <li>

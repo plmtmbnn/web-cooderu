@@ -14,7 +14,7 @@ import ServicesHomeOne from './ServicesHomeOne';
 import TeamHomeOne from './TeamHomeOne';
 // import TestimonialHomeOne from './TestimonialHomeOne';
 // import TrafficHomeOne from './TrafficHomeOne';
-import WhatsappButton from '../FloatButton/WhatsappButton';
+// import WhatsappButton from '../FloatButton/WhatsappButton';
 import SponserHomeTwo from './SponserHomeTwo';
 import ServicesAbout from './ServicesAbout';
 
@@ -39,7 +39,7 @@ function HomeOne() {
             {/* <ProjectHomeOne /> */}
             <FooterHomeOne />
             <BackToTop />
-            <WhatsappButton />
+            {/* <WhatsappButton /> */}
         </>
     );
 }

@@ -100,7 +100,7 @@ function FooterHomeRtl({ className }) {
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <i className="fal fa-phone" /> +(62) 813 1498 4021
+                                            <i className="fal fa-phone" /> +(62) 812 8396 8844
                                         </a>
                                     </li>
                                     <li>

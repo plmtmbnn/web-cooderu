@@ -56,7 +56,7 @@ function PricingHomeOne({ className }) {
                                             <div className="pricing-btn mt-35">
                                                 <a
                                                     className="main-btn"
-                                                    href="https://wa.me/6281314984021?text=Halo Cooderu, saya mau daftar"
+                                                    href="https://wa.me/+6281283968844?text=Halo Cooderu, saya mau daftar"
                                                 >
                                                     Daftar
                                                 </a>
@@ -109,7 +109,7 @@ function PricingHomeOne({ className }) {
                                             <div className="pricing-btn mt-35">
                                                 <a
                                                     className="main-btn"
-                                                    href="https://wa.me/6281314984021?text=Halo Cooderu, saya mau daftar"
+                                                    href="https://wa.me/+6281283968844?text=Halo Cooderu, saya mau daftar"
                                                 >
                                                     Daftar
                                                 </a>
@@ -162,7 +162,7 @@ function PricingHomeOne({ className }) {
                                             <div className="pricing-btn mt-35">
                                                 <a
                                                     className="main-btn"
-                                                    href="https://wa.me/6281314984021?text=Halo Cooderu, saya mau daftar"
+                                                    href="https://wa.me/+6281283968844?text=Halo Cooderu, saya mau daftar"
                                                 >
                                                     Daftar
                                                 </a>

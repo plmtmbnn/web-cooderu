@@ -22,7 +22,7 @@ function Forms() {
                                     <h5>Phone</h5>
                                     <p>
                                         <i className="fal fa-phone"></i>
-                                        +(62) 813 1498 4021
+                                        +(62) 812 8396 8844
                                         <br />
                                     </p>
                                 </div>
