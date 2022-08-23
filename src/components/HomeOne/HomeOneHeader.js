@@ -36,7 +36,7 @@ function HomeOneHeader({
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-1 col-sm-1 order-3 order-sm-2">
-                            <div className="appie-header-main-menu">
+                            <div className="appie-header-main-menu" hidden>
                                 <Navigation />
                             </div>
                         </div>

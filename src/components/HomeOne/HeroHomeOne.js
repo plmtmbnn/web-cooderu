@@ -1,5 +1,5 @@
 import React from 'react';
-import heroThumbOne from '../../assets/images/hero-thumb-1.png';
+// import heroThumbOne from '../../assets/images/hero-thumb-1.png';
 import shapeTwo from '../../assets/images/shape/shape-2.png';
 import shapeThree from '../../assets/images/shape/shape-3.png';
 import shapeFour from '../../assets/images/shape/shape-4.png';
@@ -13,7 +13,7 @@ function HeroHomeOne({ className }) {
                         <div className="col-lg-6">
                             <div className="appie-hero-content">
                                 <span>
-                                    Cooderu - Online Frontend & Backend Bootcamp <hr />
+                                    Cooderu - Online Frontend & Backend Bootcamp <br />
                                 </span>
                                 <h1 className="appie-title">
                                     Telah dibuka pendaftaran <br />
@@ -30,26 +30,18 @@ function HeroHomeOne({ className }) {
                                     >
                                         26 Sept 2022
                                     </span>
-                                </h3>{' '}
-                                <hr />
-                                <p></p>
-                                <ul hidden>
-                                    <li>
-                                        <a href="#">
-                                            <i className="fab fa-apple" /> Download for iOS
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a className="item-2" href="#">
-                                            <i className="fab fa-google-play" /> Download for
-                                            Android
-                                        </a>
-                                    </li>
-                                </ul>
+                                </h3>
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <img src={heroThumbOne} style={{ height: '20%' }} alt="" />
+                            <div className="appie-hero-content">
+                                <h1 className="appie-title">
+                                    <p>- Belajar Frontend / Backend Selama 3 bulan</p>
+                                    <p>- Jaminan kerja setelah lulus Bootcamp</p>
+                                    <p>- Tersedia beasiswa gratis</p>
+                                </h1>
+                            </div>
+                            {/* <img src={heroThumbOne} style={{ height: '20%' }} alt="" /> */}
                         </div>
                     </div>
                 </div>

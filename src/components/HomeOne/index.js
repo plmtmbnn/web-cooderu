@@ -12,7 +12,7 @@ import PricingHomeOne from './PricingHomeOne';
 // import ProjectHomeOne from './ProjectHomeOne';
 import ServicesHomeOne from './ServicesHomeOne';
 import TeamHomeOne from './TeamHomeOne';
-// import TestimonialHomeOne from './TestimonialHomeOne';
+import TestimonialHomeOne from './TestimonialHomeOne';
 // import TrafficHomeOne from './TrafficHomeOne';
 // import WhatsappButton from '../FloatButton/WhatsappButton';
 import SponserHomeTwo from './SponserHomeTwo';
@@ -31,7 +31,7 @@ function HomeOne() {
             <ServicesHomeOne />
             <ServicesAbout />
             {/* <TrafficHomeOne /> */}
-            {/* <TestimonialHomeOne /> */}
+            <TestimonialHomeOne />
             <FaqHomeOne />
             <TeamHomeOne />
             <SponserHomeTwo />

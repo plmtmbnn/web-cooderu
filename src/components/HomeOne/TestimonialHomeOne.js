@@ -2,7 +2,9 @@ import React, { useRef } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
-import user from '../../assets/images/testimonial-user.png';
+import userOne from '../../assets/images/testimonial-user-01.png';
+import userTwo from '../../assets/images/testimonial-user-02.png';
+import userThree from '../../assets/images/testimonial-user-03.png';
 
 function TestimonialHomeOne({ className }) {
     const sliderRef = useRef();
@@ -33,15 +35,15 @@ function TestimonialHomeOne({ className }) {
                             <Slider ref={sliderRef} dots arrows={false}>
                                 <div className="appie-testimonial-item text-center">
                                     <div className="author-info">
-                                        <img src={user} alt="" />
-                                        <h5 className="title">Jason Response</h5>
-                                        <span>April 14, 2022</span>
+                                        <img src={userOne} alt="" />
+                                        <h5 className="title">Daffa</h5>
+                                        <span>Front End Alunmi</span>
                                     </div>
                                     <div className="text">
                                         <p>
-                                            Why I say old chap that is spiffing lurgy Oxford
-                                            cracking goal bleeder, bog-standard Harry brilliant mush
-                                            a blinding shot starkers.
+                                            The curriculum provided by Coderuu is very useful for me
+                                            because it's relevant with the industry, so that makes
+                                            me easier to apply it in the workplace.
                                         </p>
                                         <ul>
                                             <li>
@@ -64,15 +66,15 @@ function TestimonialHomeOne({ className }) {
                                 </div>
                                 <div className="appie-testimonial-item text-center">
                                     <div className="author-info">
-                                        <img src={user} alt="" />
-                                        <h5 className="title">Jason Response</h5>
-                                        <span>April 14, 2022</span>
+                                        <img src={userTwo} alt="" />
+                                        <h5 className="title">Oscar</h5>
+                                        <span>Back End Alunmi</span>
                                     </div>
                                     <div className="text">
                                         <p>
-                                            Why I say old chap that is spiffing lurgy Oxford
-                                            cracking goal bleeder, bog-standard Harry brilliant mush
-                                            a blinding shot starkers.
+                                            Experienced & fast-responding instructors really helped
+                                            me to understanding every material and solving problems
+                                            I encountered while attending bootcamp.
                                         </p>
                                         <ul>
                                             <li>
@@ -95,15 +97,15 @@ function TestimonialHomeOne({ className }) {
                                 </div>
                                 <div className="appie-testimonial-item text-center">
                                     <div className="author-info">
-                                        <img src={user} alt="" />
-                                        <h5 className="title">Jason Response</h5>
-                                        <span>April 14, 2022</span>
+                                        <img src={userThree} alt="" />
+                                        <h5 className="title">Stanley</h5>
+                                        <span>Back End Alunmi</span>
                                     </div>
                                     <div className="text">
                                         <p>
-                                            Why I say old chap that is spiffing lurgy Oxford
-                                            cracking goal bleeder, bog-standard Harry brilliant mush
-                                            a blinding shot starkers.
+                                            The syllabus is very focused and the classes are very
+                                            flexible, making it easier for me who is busy in other
+                                            places.
                                         </p>
                                         <ul>
                                             <li>
