@@ -20,7 +20,7 @@ function HeroHomeOne({ className }) {
                                     <span style={{ color: '#a4d514' }}>Batch 2</span> <br />
                                 </h1>
                                 <h3>
-                                    Sampai{' '}
+                                    Kelas mulai{' '}
                                     <span
                                         style={{
                                             'text-decoration': 'underline',
@@ -28,7 +28,7 @@ function HeroHomeOne({ className }) {
                                             background: '#a4d514',
                                         }}
                                     >
-                                        26 Sept 2022
+                                        5 oktober 2022
                                     </span>
                                 </h3>
                             </div>
