@@ -40,6 +40,18 @@ function HeroHomeOne({ className }) {
                                     <p>- Jaminan kerja setelah lulus Bootcamp</p>
                                     <p>- Tersedia beasiswa gratis</p>
                                 </h1>
+                                <span>
+                                    <div className="pricing-btn mt-35">
+                                        <a
+                                            className="main-btn"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                            href="https://docs.google.com/forms/d/e/1FAIpQLSfgfJYG017I6B3n-vGlMGx3_fqx2OEooshqMQKGBBgHw23EzQ/viewform"
+                                        >
+                                            Daftar Sekarang!
+                                        </a>
+                                    </div>
+                                </span>
                             </div>
                             {/* <img src={heroThumbOne} style={{ height: '20%' }} alt="" /> */}
                         </div>

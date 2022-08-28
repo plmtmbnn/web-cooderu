@@ -56,7 +56,9 @@ function PricingHomeOne({ className }) {
                                             <div className="pricing-btn mt-35">
                                                 <a
                                                     className="main-btn"
-                                                    href="https://wa.me/+6281283968844?text=Halo Cooderu, saya mau daftar"
+                                                    target="_blank"
+                                                    rel="noreferrer"
+                                                    href="https://docs.google.com/forms/d/e/1FAIpQLSfgfJYG017I6B3n-vGlMGx3_fqx2OEooshqMQKGBBgHw23EzQ/viewform"
                                                 >
                                                     Daftar
                                                 </a>
@@ -109,7 +111,9 @@ function PricingHomeOne({ className }) {
                                             <div className="pricing-btn mt-35">
                                                 <a
                                                     className="main-btn"
-                                                    href="https://wa.me/+6281283968844?text=Halo Cooderu, saya mau daftar"
+                                                    target="_blank"
+                                                    rel="noreferrer"
+                                                    href="https://docs.google.com/forms/d/e/1FAIpQLSfgfJYG017I6B3n-vGlMGx3_fqx2OEooshqMQKGBBgHw23EzQ/viewform"
                                                 >
                                                     Daftar
                                                 </a>
@@ -162,7 +166,9 @@ function PricingHomeOne({ className }) {
                                             <div className="pricing-btn mt-35">
                                                 <a
                                                     className="main-btn"
-                                                    href="https://wa.me/+6281283968844?text=Halo Cooderu, saya mau daftar"
+                                                    target="_blank"
+                                                    rel="noreferrer"
+                                                    href="https://docs.google.com/forms/d/e/1FAIpQLSfgfJYG017I6B3n-vGlMGx3_fqx2OEooshqMQKGBBgHw23EzQ/viewform"
                                                 >
                                                     Daftar
                                                 </a>
