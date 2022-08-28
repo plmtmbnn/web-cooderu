@@ -83,7 +83,7 @@ function FeaturesHomeOne({ className }) {
                                                 career as a reliable Front End Developer in 12
                                                 weeks. <br />
                                                 <br />
-                                                101 JS, Nodejs, API, Middleware, and may more.
+                                                101 JS, Nodejs, API, Middleware, and many more.
                                             </p>
                                             <button type="submit" className="main-btn">
                                                 Syllabus
@@ -121,7 +121,7 @@ function FeaturesHomeOne({ className }) {
                                                 career as a reliable Back End Developer in 12 weeks.
                                                 <br />
                                                 <br />
-                                                101 HTML, CSS, JS, ReactJS and may more.
+                                                101 HTML, CSS, JS, ReactJS and many more.
                                             </p>
                                             <button type="submit" className="main-btn">
                                                 Syllabus

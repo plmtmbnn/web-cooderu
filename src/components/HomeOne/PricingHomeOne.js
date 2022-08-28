@@ -7,7 +7,7 @@ function PricingHomeOne({ className }) {
                         <div className="col-lg-12">
                             <div className="appie-section-title text-center">
                                 <h3 className="appie-title">Daftar Sekarang Batch 2</h3>
-                                <p>Periode: 5 Okt 2022 - 12 Nov 2022</p>
+                                <p>Periode: 3 Okt 2022 - 12 Nov 2022</p>
                             </div>
                         </div>
                     </div>
