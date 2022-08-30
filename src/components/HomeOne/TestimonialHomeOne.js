@@ -37,7 +37,7 @@ function TestimonialHomeOne({ className }) {
                                     <div className="author-info">
                                         <img src={userOne} alt="" />
                                         <h5 className="title">Daffa</h5>
-                                        <span>Front End Alunmi</span>
+                                        <span>Batch 1 Alumni (PinjamModal)</span>
                                     </div>
                                     <div className="text">
                                         <p>
@@ -68,7 +68,7 @@ function TestimonialHomeOne({ className }) {
                                     <div className="author-info">
                                         <img src={userTwo} alt="" />
                                         <h5 className="title">Oscar</h5>
-                                        <span>Back End Alunmi</span>
+                                        <span>Batch 1 Alumni (PinjamModal)</span>
                                     </div>
                                     <div className="text">
                                         <p>
@@ -99,7 +99,7 @@ function TestimonialHomeOne({ className }) {
                                     <div className="author-info">
                                         <img src={userThree} alt="" />
                                         <h5 className="title">Stanley</h5>
-                                        <span>Back End Alunmi</span>
+                                        <span>Batch 1 Alumni</span>
                                     </div>
                                     <div className="text">
                                         <p>
