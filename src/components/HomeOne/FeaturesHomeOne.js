@@ -1,11 +1,64 @@
 import React, { useState } from 'react';
+import { Modal } from 'antd';
 import thumbBe from '../../assets/images/features-thumb-be.png';
 import thumbFe from '../../assets/images/features-thumb-fe.png';
 import shapeSix from '../../assets/images/shape/shape-6.png';
 import shapeSeven from '../../assets/images/shape/shape-7.png';
 import shapeEight from '../../assets/images/shape/shape-8.png';
 
+const syllabus = {
+    FRONTEND: [
+        'Introduction HTML',
+        'Introduction CSS',
+        'Introduction CSS - Layouting',
+        'Introduction - Grid & Flex',
+        'Introduction JavaScript',
+        'Introduction JQuery',
+        'Introduction Bootstrap',
+        'Introduction React JS',
+        'Advanced React JS',
+        'React Hook',
+        'React UI Framework',
+        'Introduction Rest API & Integration',
+        'Introduction React Redux & LocalStorage',
+        'Implement Form Validation',
+        'Belajar Deploy dan Hosting Sendiri',
+        'Mengerjakan beberapa Latihan & Project',
+    ],
+    BACKEND: [
+        'Introduction JavaScript Fundamental',
+        'Introduction Algorithm',
+        'Introduction Class & OOP',
+        'Big O and Data Structure',
+        'NPM FS Module',
+        'Deal with Async',
+        'Introduction Express JS',
+        'Introduction RDBMS',
+        'Introduction ORM (Sequelize)',
+        'Introduction JWT Middleware',
+        'Introduction NoSQL',
+        'Belajar Deploy dan Hosting Sendiri',
+        'Mengerjakan beberapa Latihan & Project',
+    ],
+};
+
 function FeaturesHomeOne({ className }) {
+    const [isModalVisible, setIsModalVisible] = useState(false);
+    const [targetProgram, settargetProgram] = useState('BACKEND');
+
+    const showModal = (targetProgramNew) => {
+        settargetProgram(targetProgramNew);
+        setIsModalVisible(true);
+    };
+
+    const handleOk = () => {
+        setIsModalVisible(false);
+    };
+
+    const handleCancel = () => {
+        setIsModalVisible(false);
+    };
+
     const [tab, setTab] = useState('setting');
     const handleClick = (e, value) => {
         e.preventDefault();
@@ -13,6 +66,23 @@ function FeaturesHomeOne({ className }) {
     };
     return (
         <section className={`appie-features-area pt-100 ${className}`} id="features">
+            <Modal
+                title={`Program: ${targetProgram}`}
+                visible={isModalVisible}
+                onOk={handleOk}
+                onCancel={handleCancel}
+                footer={null}
+            >
+                {Array(...syllabus[targetProgram]).map((e, index) => (
+                    <>
+                        <p>
+                            {index + 1}
+                            {'. '}
+                            {e}
+                        </p>{' '}
+                    </>
+                ))}
+            </Modal>
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-3">
@@ -85,7 +155,11 @@ function FeaturesHomeOne({ className }) {
                                                 <br />
                                                 101 JS, Nodejs, API, Middleware, and many more.
                                             </p>
-                                            <button type="submit" className="main-btn">
+                                            <button
+                                                type="button"
+                                                onClick={() => showModal('BACKEND')}
+                                                className="main-btn"
+                                            >
                                                 Syllabus
                                             </button>
                                         </div>
@@ -123,7 +197,11 @@ function FeaturesHomeOne({ className }) {
                                                 <br />
                                                 101 HTML, CSS, JS, ReactJS and many more.
                                             </p>
-                                            <button type="submit" className="main-btn">
+                                            <button
+                                                type="button"
+                                                onClick={() => showModal('FRONTEND')}
+                                                className="main-btn"
+                                            >
                                                 Syllabus
                                             </button>
                                         </div>

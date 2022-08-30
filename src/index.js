@@ -11,6 +11,7 @@ import './assets/css/magnific.rtl.css';
 import './assets/css/main.css';
 import './assets/css/style.css';
 import reportWebVitals from './reportWebVitals';
+import 'antd/dist/antd.css';
 
 ReactDOM.render(
     <React.StrictMode>
