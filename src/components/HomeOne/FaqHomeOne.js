@@ -12,10 +12,10 @@ function FaqHomeOne({ className }) {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="appie-section-title text-center">
-                                <h3 className="appie-title">Frequently asked questions</h3>
+                                <h3 className="appie-title">FAQ</h3>
                                 <p>
-                                    For further information, contact us by clicking the Whatsapp
-                                    button.
+                                    Untuk informasi lebih lanjut, hubungi kami dengan mengklik
+                                    tombol Whatsapp.
                                 </p>
                             </div>
                         </div>
@@ -146,7 +146,7 @@ function FaqHomeOne({ className }) {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-12">
+                        <div className="col-lg-12" hidden>
                             <div className="faq-text text-center pt-40">
                                 <p>
                                     Can't find an answer?{' '}

@@ -19,8 +19,8 @@ function SponserHomeTwo({ className }) {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="appie-section-title text-center">
-                                <h3 className="appie-title">Our Awesome Partner</h3>
-                                <p>We collaborate to make impact for others.</p>
+                                <h3 className="appie-title">Partner Kami</h3>
+                                <p>Kami berkolaborasi untuk membuat dampak bagi orang lain.</p>
                             </div>
                         </div>
                     </div>

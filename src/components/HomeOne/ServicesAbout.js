@@ -8,12 +8,12 @@ function ServicesAbout() {
                     <div className="row align-items-end">
                         <div className="col-lg-6 col-md-8">
                             <div className="appie-section-title">
-                                <h3 className="appie-title">PROGRAMS AT GLANCE</h3>
+                                <h3 className="appie-title">SEKILAS PROGRAM</h3>
                                 <p>
-                                    Our comprehensive programs prepares students to enter the
-                                    workforce as fast adaptive developer who contribute as
-                                    high-performance team members in their first role after
-                                    graduation.
+                                    Program komprehensif kami mempersiapkan siswa untuk memasuki
+                                    dunia kerja sebagai pengembang adaptif cepat yang berkontribusi
+                                    sebagai anggota tim berkinerja tinggi dalam peran pertama mereka
+                                    setelah lulus.
                                 </p>
                             </div>
                         </div>
@@ -28,8 +28,8 @@ function ServicesAbout() {
                                 <div className="icon">
                                     <i className="fal fa-tv"></i>
                                 </div>
-                                <h4 className="title">12 weeks bootcamp</h4>
-                                <p>There are 3 sessions a week, entirely online.</p>
+                                <h4 className="title">Bootcamp 12 minggu</h4>
+                                <p>Akan ada 3 sesi seminggunya, seluruhnya online.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6">
@@ -42,7 +42,7 @@ function ServicesAbout() {
                                     <i className="fal fa-key"></i>
                                 </div>
                                 <h4 className="title">Exclusive mentorship</h4>
-                                <p>15:1 student to mentor ratio</p>
+                                <p>Rasio 15:1 antara siswa dengan mentor</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6">
@@ -54,8 +54,11 @@ function ServicesAbout() {
                                 <div className="icon">
                                     <i className="fal fa-filter"></i>
                                 </div>
-                                <h4 className="title">Variative payment method</h4>
-                                <p>Four types of tuition funding available.</p>
+                                <h4 className="title">Metode pembayaran yang bervariasi</h4>
+                                <p>
+                                    Empat jenis cara bayar tersedia. Bayar lunas, cicilan, paylater
+                                    dan beasiswa.
+                                </p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6">
@@ -69,8 +72,8 @@ function ServicesAbout() {
                                 </div>
                                 <h4 className="title">Career coaching</h4>
                                 <p>
-                                    Career coaching to improve your confident and prepare your CV
-                                    and interviews.
+                                    Pembinaan karir untuk meningkatkan kepercayaan diri Anda dan
+                                    mempersiapkan CV dan wawancara Anda.
                                 </p>
                             </div>
                         </div>
@@ -84,7 +87,7 @@ function ServicesAbout() {
                                     <i className="fal fa-laptop-code"></i>
                                 </div>
                                 <h4 className="title">Projects & portfolio</h4>
-                                <p>A lot of tasks and projects to build your portfolio.</p>
+                                <p>Akan banyak tugas dan proyek untuk membangun portofolio Anda.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6">

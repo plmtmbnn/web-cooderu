@@ -103,7 +103,7 @@ function FeaturesHomeOne({ className }) {
                                     aria-controls="v-pills-home"
                                     aria-selected="true"
                                 >
-                                    <i className="fas fa-brackets-curly" /> Backend Bootcamp
+                                    <i className="fas fa-brackets-curly" /> Backend
                                 </a>
                                 <a
                                     onClick={(e) => handleClick(e, 'report')}
@@ -115,7 +115,7 @@ function FeaturesHomeOne({ className }) {
                                     aria-controls="v-pills-profile"
                                     aria-selected="false"
                                 >
-                                    <i className="fas fa-palette" /> Frontend Bootcamp
+                                    <i className="fas fa-palette" /> Frontend
                                 </a>
                             </div>
                         </div>
@@ -149,18 +149,19 @@ function FeaturesHomeOne({ className }) {
                                             <span>Program Bootcamp</span>
                                             <h3 className="title">Backend Developer</h3>
                                             <p>
-                                                Train and improve the skills you need to start a
-                                                career as a reliable Front End Developer in 12
-                                                weeks. <br />
+                                                Latih dan tingkatkan keterampilan yang dibutuhkan
+                                                untuk memulai karir Back End Developer yang andal
+                                                dalam 12 minggu. <br />
                                                 <br />
-                                                101 JS, Nodejs, API, Middleware, and many more.
+                                                Dasar-dasr JS, Nodejs, API, Middleware, dan banyak
+                                                lagi serta beberapa latihan dan project.
                                             </p>
                                             <button
                                                 type="button"
                                                 onClick={() => showModal('BACKEND')}
                                                 className="main-btn"
                                             >
-                                                Syllabus
+                                                Silabus
                                             </button>
                                         </div>
                                     </div>
@@ -191,18 +192,20 @@ function FeaturesHomeOne({ className }) {
                                             <span>Program Bootcamp</span>
                                             <h3 className="title">Frontend Developer</h3>
                                             <p>
-                                                Train and improve the skills you need to start a
-                                                career as a reliable Back End Developer in 12 weeks.
+                                                Latih dan tingkatkan keterampilan yang dibutuhkan
+                                                untuk memulai karir Front End Developer yang andal
+                                                dalam 12 minggu.
                                                 <br />
                                                 <br />
-                                                101 HTML, CSS, JS, ReactJS and many more.
+                                                Dasar-dasar HTML, CSS, JS, ReactJS, dan banyak lagi
+                                                serta beberapa latihan dan project.
                                             </p>
                                             <button
                                                 type="button"
                                                 onClick={() => showModal('FRONTEND')}
                                                 className="main-btn"
                                             >
-                                                Syllabus
+                                                Silabus
                                             </button>
                                         </div>
                                     </div>
@@ -221,6 +224,9 @@ function FeaturesHomeOne({ className }) {
             <div className="features-shape-3">
                 <img src={shapeEight} alt="" />
             </div>
+            <br />
+            <br />
+            <br />
         </section>
     );
 }

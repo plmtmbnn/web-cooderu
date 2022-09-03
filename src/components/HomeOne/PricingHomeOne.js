@@ -17,18 +17,21 @@ function PricingHomeOne({ className }) {
                                 <div className="col-lg-4 col-md-6 wow animated fadeInUp">
                                     <div className="pricing-one__single center">
                                         <div className="pricig-heading">
-                                            <h6>Early Bird</h6>
+                                            <h6>Normal</h6>
                                             <div className="price-range">
                                                 <sup>Rp</sup>{' '}
-                                                <span style={{ color: '#00b09b' }}>5.600.000</span>
+                                                <span style={{ color: '#00b09b' }}>6.000.000</span>
                                                 <p hidden>/month</p>
                                             </div>
-                                            <p
-                                                style={{
-                                                    'text-decoration': 'line-through',
-                                                }}
-                                            >
-                                                Rp 6.599.000
+                                            <p>
+                                                <span
+                                                    style={{
+                                                        'text-decoration': 'line-through',
+                                                    }}
+                                                >
+                                                    Rp 6.599.000
+                                                </span>
+                                                {' (harga termurah di bootcamp lain)'}
                                             </p>
                                         </div>
                                         <div className="pricig-body">
@@ -72,10 +75,10 @@ function PricingHomeOne({ className }) {
                                 <div className="col-lg-4 col-md-6 wow animated fadeInUp">
                                     <div className="pricing-one__single center">
                                         <div className="pricig-heading">
-                                            <h6>Normal</h6>
+                                            <h6>Early Bird</h6>
                                             <div className="price-range">
                                                 <sup>Rp</sup>{' '}
-                                                <span style={{ color: '#00b09b' }}>6.000.000</span>
+                                                <span style={{ color: '#00b09b' }}>5.600.000</span>
                                                 <p hidden>/month</p>
                                             </div>
                                             <p
@@ -83,31 +86,10 @@ function PricingHomeOne({ className }) {
                                                     'text-decoration': 'line-through',
                                                 }}
                                             >
-                                                Rp 6.599.000
+                                                Rp 6.000.000
                                             </p>
                                         </div>
                                         <div className="pricig-body">
-                                            <ul>
-                                                <li>
-                                                    <i className="fal fa-check" /> 12 minggu / 38
-                                                    pertemuan
-                                                </li>
-                                                <li>
-                                                    <i className="fal fa-check" /> Project &
-                                                    Portofolio
-                                                </li>
-                                                <li>
-                                                    <i className="fal fa-check" /> Pelatihan Karir
-                                                </li>
-                                                <li>
-                                                    <i className="fal fa-check" /> Lowongan
-                                                    Pekerjaan
-                                                </li>
-                                                <li>
-                                                    <i className="fal fa-check" /> Grup diskusi &
-                                                    konsultasi gratis
-                                                </li>
-                                            </ul>
                                             <div className="pricing-btn mt-35">
                                                 <a
                                                     className="main-btn"
@@ -118,9 +100,6 @@ function PricingHomeOne({ className }) {
                                                     Daftar
                                                 </a>
                                             </div>
-                                        </div>
-                                        <div className="pricing-rebon">
-                                            <span></span>
                                         </div>
                                     </div>
                                 </div>
@@ -142,27 +121,6 @@ function PricingHomeOne({ className }) {
                                             </p>
                                         </div>
                                         <div className="pricig-body">
-                                            <ul>
-                                                <li>
-                                                    <i className="fal fa-check" /> 12 minggu / 38
-                                                    pertemuan
-                                                </li>
-                                                <li>
-                                                    <i className="fal fa-check" /> Project &
-                                                    Portofolio
-                                                </li>
-                                                <li>
-                                                    <i className="fal fa-check" /> Pelatihan Karir
-                                                </li>
-                                                <li>
-                                                    <i className="fal fa-check" /> Lowongan
-                                                    Pekerjaan
-                                                </li>
-                                                <li>
-                                                    <i className="fal fa-check" /> Grup diskusi &
-                                                    konsultasi gratis
-                                                </li>
-                                            </ul>
                                             <div className="pricing-btn mt-35">
                                                 <a
                                                     className="main-btn"

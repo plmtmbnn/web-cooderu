@@ -152,25 +152,20 @@ function Drawer({ drawer, action }) {
                                         </ul>
                                     </div>
                                     <div className="offcanvas-social">
-                                        <ul className="text-center" hidden>
+                                        <ul className="text-center">
                                             <li>
-                                                <a href="$">
-                                                    <i className="fab fa-facebook-f"></i>
+                                                <a href="https://www.facebook.com/cooderu/">
+                                                    <i className="fab fa-facebook-f" />
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="$">
-                                                    <i className="fab fa-twitter"></i>
+                                                <a href="https://www.instagram.com/cooderu/">
+                                                    <i className="fab fa-instagram" />
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="$">
-                                                    <i className="fab fa-instagram"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="$">
-                                                    <i className="fab fa-dribbble"></i>
+                                                <a href="https://www.linkedin.com/company/cooderu/about/">
+                                                    <i className="fab fa-linkedin-in" />
                                                 </a>
                                             </li>
                                         </ul>
@@ -180,7 +175,7 @@ function Drawer({ drawer, action }) {
                                             <li>
                                                 <a href="#">
                                                     <i className="fal fa-envelope"></i>
-                                                    hello.cooderu@gmail.com
+                                                    hello@cooderu.com
                                                 </a>
                                             </li>
                                             <li>

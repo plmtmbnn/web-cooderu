@@ -41,9 +41,9 @@ function TestimonialHomeOne({ className }) {
                                     </div>
                                     <div className="text">
                                         <p>
-                                            The curriculum provided by Coderuu is very useful for me
-                                            because it's relevant with the industry, so that makes
-                                            me easier to apply it in the workplace.
+                                            Kurikulum yang diberikan oleh Cooderu bermanfaat bagi
+                                            saya karena relevan dengan industri, sehingga lebih
+                                            mudah untuk diterapkan di tempat kerja.
                                         </p>
                                         <ul>
                                             <li>
@@ -68,13 +68,13 @@ function TestimonialHomeOne({ className }) {
                                     <div className="author-info">
                                         <img src={userTwo} alt="" />
                                         <h5 className="title">Oscar</h5>
-                                        <span>Batch 1 Alumni (PinjamModal)</span>
+                                        <span>Batch 1 Alumni</span>
                                     </div>
                                     <div className="text">
                                         <p>
-                                            Experienced & fast-responding instructors really helped
-                                            me to understanding every material and solving problems
-                                            I encountered while attending bootcamp.
+                                            Mentor berpengalaman & cepat tanggap sangat membantu
+                                            saya untuk memahami setiap materi dan menyelesaikan
+                                            masalah yang saya temui selama mengikuti Bootcamp.
                                         </p>
                                         <ul>
                                             <li>
@@ -103,9 +103,8 @@ function TestimonialHomeOne({ className }) {
                                     </div>
                                     <div className="text">
                                         <p>
-                                            The syllabus is very focused and the classes are very
-                                            flexible, making it easier for me who is busy in other
-                                            places.
+                                            Silabus sangat fokus dan kelas sangat fleksibel,
+                                            memudahkan saya yang sibuk di tempat lain.
                                         </p>
                                         <ul>
                                             <li>

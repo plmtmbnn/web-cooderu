@@ -12,9 +12,9 @@ function ServicesHomeOne({ className }) {
                     <div className="col-lg-6">
                         <div className="appie-section-title text-center">
                             <h3 className="appie-title">
-                                Designed with <br /> up to date curriculum.
+                                Didesain dengan <br /> Kurikulum Terbaru.
                             </h3>
-                            <p>We help you to adapt faster. </p>
+                            <p>Kami berusaha membantu untuk berapdatasi lebih cepat. </p>
                         </div>
                     </div>
                 </div>
@@ -29,11 +29,11 @@ function ServicesHomeOne({ className }) {
                                 <img src={IconOne} alt="" />
                                 <span>1</span>
                             </div>
-                            <h4 className="appie-title">Up to Date Curriculum Bootcamp</h4>
+                            <h4 className="appie-title">Bootcamp Dengan Kurikulum Terbaru</h4>
                             <p>
-                                You will learn the most used skills in today's industry. The
-                                knowledge transfer process from our experienced instructors also
-                                makes it easy for you to learn quickly.
+                                Anda akan mempelajari keterampilan yang paling sering digunakan di
+                                industri saat ini. Proses transfer ilmu dari instruktur kami yang
+                                berpengalaman juga memudahkan Anda untuk belajar dengan cepat.
                             </p>
                         </div>
                     </div>
@@ -47,10 +47,10 @@ function ServicesHomeOne({ className }) {
                                 <img src={IconTwo} alt="" />
                                 <span>2</span>
                             </div>
-                            <h4 className="appie-title">Portfolio</h4>
+                            <h4 className="appie-title">Latihan & Portfolio</h4>
                             <p>
-                                You will learn directly through case study & real projects from our
-                                selected partners.
+                                Anda akan belajar langsung melalui berbagai latihan, studi kasus &
+                                proyek nyata dari mitra pilihan kami.
                             </p>
                         </div>
                     </div>
@@ -66,8 +66,9 @@ function ServicesHomeOne({ className }) {
                             </div>
                             <h4 className="appie-title">Career Coaching</h4>
                             <p>
-                                We help boost your confidence by building an attractive resume &
-                                providing tips & tricks to win an interview.
+                                Kami membantu meningkatkan kepercayaan diri Anda dengan membuat
+                                resume yang menarik & memberikan tips & trik untuk memenangkan
+                                wawancara.
                             </p>
                         </div>
                     </div>
@@ -83,7 +84,8 @@ function ServicesHomeOne({ className }) {
                             </div>
                             <h4 className="appie-title">Hiring Partner</h4>
                             <p>
-                                We help you get the role you love from internship to full time job.
+                                Kami membantu Anda mendapatkan peran yang Anda sukai dari magang
+                                hingga pekerjaan penuh waktu.
                             </p>
                         </div>
                     </div>

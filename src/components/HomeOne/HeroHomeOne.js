@@ -17,7 +17,10 @@ function HeroHomeOne({ className }) {
                                 </span>
                                 <h1 className="appie-title">
                                     Telah dibuka pendaftaran <br />
-                                    <span style={{ color: '#a4d514' }}>Batch 2</span> <br />
+                                    <span>
+                                        <b>Batch 2</b>
+                                    </span>{' '}
+                                    <br />
                                 </h1>
                                 <h3>
                                     Kelas mulai{' '}
@@ -35,11 +38,6 @@ function HeroHomeOne({ className }) {
                         </div>
                         <div className="col-lg-6">
                             <div className="appie-hero-content">
-                                <h1 className="appie-title">
-                                    <p>- Belajar Frontend / Backend Selama 3 bulan</p>
-                                    <p>- Jaminan kerja setelah lulus Bootcamp</p>
-                                    <p>- Tersedia beasiswa gratis</p>
-                                </h1>
                                 <span>
                                     <div className="pricing-btn mt-35">
                                         <a
@@ -48,10 +46,16 @@ function HeroHomeOne({ className }) {
                                             rel="noreferrer"
                                             href="https://docs.google.com/forms/d/e/1FAIpQLSfgfJYG017I6B3n-vGlMGx3_fqx2OEooshqMQKGBBgHw23EzQ/viewform"
                                         >
-                                            Daftar Sekarang!
+                                            <b>Daftar Sekarang</b>
                                         </a>
                                     </div>
                                 </span>
+                                <br />
+                                <h1 className="appie-title">
+                                    <p>- Pilih Belajar Frontend atau Backend Selama 3 bulan</p>
+                                    <p>- Jaminan kerja setelah lulus Bootcamp</p>
+                                    <p>- Tersedia beasiswa gratis</p>
+                                </h1>
                             </div>
                             {/* <img src={heroThumbOne} style={{ height: '20%' }} alt="" /> */}
                         </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import useToggle from '../../Hooks/useToggle';
 import BackToTop from '../BackToTop';
 import Drawer from '../Mobile/Drawer';
-// import BlogHomeOne from './BlogHomeOne';
+import PaymentMethod from './PaymentMethod';
 import FaqHomeOne from './FaqHomeOne';
 import FeaturesHomeOne from './FeaturesHomeOne';
 import FooterHomeOne from './FooterHomeOne';
@@ -14,7 +14,6 @@ import ServicesHomeOne from './ServicesHomeOne';
 import TeamHomeOne from './TeamHomeOne';
 import TestimonialHomeOne from './TestimonialHomeOne';
 // import TrafficHomeOne from './TrafficHomeOne';
-// import WhatsappButton from '../FloatButton/WhatsappButton';
 import SponserHomeTwo from './SponserHomeTwo';
 import ServicesAbout from './ServicesAbout';
 
@@ -28,6 +27,7 @@ function HomeOne() {
             <HeroHomeOne />
             <FeaturesHomeOne />
             <PricingHomeOne />
+            <PaymentMethod />
             <ServicesHomeOne />
             <ServicesAbout />
             {/* <TrafficHomeOne /> */}
@@ -39,7 +39,6 @@ function HomeOne() {
             {/* <ProjectHomeOne /> */}
             <FooterHomeOne />
             <BackToTop />
-            {/* <WhatsappButton /> */}
         </>
     );
 }

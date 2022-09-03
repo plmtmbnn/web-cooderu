@@ -22,25 +22,20 @@ function FooterHomeOne({ className }) {
                                 <a href="#">
                                     Read More <i className="fal fa-arrow-right" />
                                 </a>
-                                <div className="social mt-30" hidden>
+                                <div className="social mt-30">
                                     <ul>
                                         <li>
-                                            <a href="#">
+                                            <a href="https://www.facebook.com/cooderu/">
                                                 <i className="fab fa-facebook-f" />
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
-                                                <i className="fab fa-twitter" />
+                                            <a href="https://www.instagram.com/cooderu/">
+                                                <i className="fab fa-instagram" />
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
-                                                <i className="fab fa-pinterest-p" />
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
+                                            <a href="https://www.linkedin.com/company/cooderu/about/">
                                                 <i className="fab fa-linkedin-in" />
                                             </a>
                                         </li>
@@ -98,8 +93,7 @@ function FooterHomeOne({ className }) {
                                 <ul>
                                     <li>
                                         <a href="#">
-                                            <i className="fal fa-envelope" />{' '}
-                                            hello.cooderu@gmail.com
+                                            <i className="fal fa-envelope" /> hello@cooderu.com
                                         </a>
                                     </li>
                                     <li>
