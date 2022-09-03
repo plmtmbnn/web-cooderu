@@ -98,8 +98,7 @@ function FooterHomeEight() {
                                 <ul>
                                     <li>
                                         <a href="#">
-                                            <i className="fal fa-envelope"></i>{' '}
-                                            hello@cooderu.com
+                                            <i className="fal fa-envelope"></i> hello@cooderu.com
                                         </a>
                                     </li>
                                     <li>

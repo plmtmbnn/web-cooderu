@@ -98,8 +98,7 @@ function FooterHomeTwo() {
                                 <ul>
                                     <li>
                                         <a href="#">
-                                            <i className="fal fa-envelope" />{' '}
-                                            hello@cooderu.com
+                                            <i className="fal fa-envelope" /> hello@cooderu.com
                                         </a>
                                     </li>
                                     <li>
