@@ -90,6 +90,32 @@ function PricingHomeOne({ className }) {
                                             </p>
                                         </div>
                                         <div className="pricig-body">
+                                            <ul>
+                                                <li>
+                                                    <i className="fal fa-check" />{' '}
+                                                    <b>Terbatas untuk 5 orang pertama</b>
+                                                </li>
+
+                                                <li>
+                                                    <i className="fal fa-check" /> 12 minggu / 38
+                                                    pertemuan
+                                                </li>
+                                                <li>
+                                                    <i className="fal fa-check" /> Project &
+                                                    Portofolio
+                                                </li>
+                                                <li>
+                                                    <i className="fal fa-check" /> Pelatihan Karir
+                                                </li>
+                                                <li>
+                                                    <i className="fal fa-check" /> Lowongan
+                                                    Pekerjaan
+                                                </li>
+                                                <li>
+                                                    <i className="fal fa-check" /> Grup diskusi &
+                                                    konsultasi gratis
+                                                </li>
+                                            </ul>
                                             <div className="pricing-btn mt-35">
                                                 <a
                                                     className="main-btn"
@@ -121,6 +147,32 @@ function PricingHomeOne({ className }) {
                                             </p>
                                         </div>
                                         <div className="pricig-body">
+                                            <ul>
+                                                <li>
+                                                    <i className="fal fa-check" />{' '}
+                                                    <b>Terbatas untuk 4 orang pendaftar</b>
+                                                </li>
+
+                                                <li>
+                                                    <i className="fal fa-check" /> 12 minggu / 38
+                                                    pertemuan
+                                                </li>
+                                                <li>
+                                                    <i className="fal fa-check" /> Project &
+                                                    Portofolio
+                                                </li>
+                                                <li>
+                                                    <i className="fal fa-check" /> Pelatihan Karir
+                                                </li>
+                                                <li>
+                                                    <i className="fal fa-check" /> Lowongan
+                                                    Pekerjaan
+                                                </li>
+                                                <li>
+                                                    <i className="fal fa-check" /> Grup diskusi &
+                                                    konsultasi gratis
+                                                </li>
+                                            </ul>
                                             <div className="pricing-btn mt-35">
                                                 <a
                                                     className="main-btn"
