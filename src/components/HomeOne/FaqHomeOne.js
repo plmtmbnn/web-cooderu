@@ -47,10 +47,9 @@ function FaqHomeOne({ className }) {
                                             >
                                                 <div className="inner">
                                                     <p>
-                                                        Betul sebesar Rp 5.500.000 (lima juta lima
-                                                        ratus ribu rupiah). Denga 3 metode bayar,
-                                                        cash 100%, study first paylater dan Income
-                                                        Share Agreement (ISA)
+                                                        Betul sebesar Rp 6.000.000 (enam juta
+                                                        rupiah). Saat ini baru tersedia metode bayar
+                                                        lunas ya.
                                                     </p>
                                                 </div>
                                             </div>

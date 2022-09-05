@@ -14,7 +14,7 @@ function ServicesHomeOne({ className }) {
                             <h3 className="appie-title">
                                 Didesain dengan <br /> Kurikulum Terbaru.
                             </h3>
-                            <p>Kami berusaha membantu untuk berapdatasi lebih cepat. </p>
+                            <p>Kami berusaha membantu untuk beradaptasi lebih cepat. </p>
                         </div>
                     </div>
                 </div>

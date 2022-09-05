@@ -29,7 +29,7 @@ function PaymentMethod() {
                                     <h4 className="title">Bayar Full / Lunas</h4>
                                     <p>
                                         Setelah Anda melakukan proses pendaftaran, lalu melakukan
-                                        pembayaran full/lunas. Terbukan untuk semua kalangan.
+                                        pembayaran full/lunas. Terbuka untuk semua kalangan.
                                     </p>
                                 </div>
                                 <div
