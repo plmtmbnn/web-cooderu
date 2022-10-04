@@ -44,7 +44,7 @@ function HeroHomeOne({ className }) {
                                             className="main-btn"
                                             target="_blank"
                                             rel="noreferrer"
-                                            href="https://docs.google.com/forms/d/e/1FAIpQLSfgfJYG017I6B3n-vGlMGx3_fqx2OEooshqMQKGBBgHw23EzQ/viewform"
+                                            href="https://docs.google.com/forms/d/e/1FAIpQLSedO58VTMPDU5H2eaHv-NmERBflUvBJql0Sz968X27oRjrWUg/viewform"
                                         >
                                             <b>Daftar Sekarang</b>
                                         </a>
