@@ -7,7 +7,7 @@ function PricingHomeOne({ className }) {
                         <div className="col-lg-12">
                             <div className="appie-section-title text-center">
                                 <h3 className="appie-title">Daftar Sekarang Batch 2</h3>
-                                <p>Periode: 3 Okt 2022 - 12 Nov 2022</p>
+                                <p>Periode: 24 Okt 2022</p>
                             </div>
                         </div>
                     </div>
@@ -20,7 +20,7 @@ function PricingHomeOne({ className }) {
                                             <h6>Normal</h6>
                                             <div className="price-range">
                                                 <sup>Rp</sup>{' '}
-                                                <span style={{ color: '#00b09b' }}>6.000.000</span>
+                                                <span style={{ color: '#00b09b' }}>7.000.000</span>
                                                 <p hidden>/month</p>
                                             </div>
                                             <p>
@@ -29,9 +29,8 @@ function PricingHomeOne({ className }) {
                                                         'text-decoration': 'line-through',
                                                     }}
                                                 >
-                                                    Rp 6.599.000
+                                                    Rp 8.599.000
                                                 </span>
-                                                {' (harga termurah di bootcamp lain)'}
                                             </p>
                                         </div>
                                         <div className="pricig-body">
@@ -61,7 +60,7 @@ function PricingHomeOne({ className }) {
                                                     className="main-btn"
                                                     target="_blank"
                                                     rel="noreferrer"
-                                                    href="https://docs.google.com/forms/d/e/1FAIpQLSfgfJYG017I6B3n-vGlMGx3_fqx2OEooshqMQKGBBgHw23EzQ/viewform"
+                                                    href="https://docs.google.com/forms/d/e/1FAIpQLSedO58VTMPDU5H2eaHv-NmERBflUvBJql0Sz968X27oRjrWUg/viewform"
                                                 >
                                                     Daftar
                                                 </a>
@@ -78,7 +77,7 @@ function PricingHomeOne({ className }) {
                                             <h6>Early Bird</h6>
                                             <div className="price-range">
                                                 <sup>Rp</sup>{' '}
-                                                <span style={{ color: '#00b09b' }}>5.600.000</span>
+                                                <span style={{ color: '#00b09b' }}>6.500.000</span>
                                                 <p hidden>/month</p>
                                             </div>
                                             <p
@@ -86,7 +85,7 @@ function PricingHomeOne({ className }) {
                                                     'text-decoration': 'line-through',
                                                 }}
                                             >
-                                                Rp 6.000.000
+                                                Rp 8.599.000
                                             </p>
                                         </div>
                                         <div className="pricig-body">
@@ -121,7 +120,7 @@ function PricingHomeOne({ className }) {
                                                     className="main-btn"
                                                     target="_blank"
                                                     rel="noreferrer"
-                                                    href="https://docs.google.com/forms/d/e/1FAIpQLSfgfJYG017I6B3n-vGlMGx3_fqx2OEooshqMQKGBBgHw23EzQ/viewform"
+                                                    href="https://docs.google.com/forms/d/e/1FAIpQLSedO58VTMPDU5H2eaHv-NmERBflUvBJql0Sz968X27oRjrWUg/viewform"
                                                 >
                                                     Daftar
                                                 </a>
@@ -135,7 +134,7 @@ function PricingHomeOne({ className }) {
                                             <h6>Promo Bestie(Daftar 2 orang)</h6>
                                             <div className="price-range">
                                                 <sup>Rp</sup>{' '}
-                                                <span style={{ color: '#00b09b' }}>11.500.000</span>
+                                                <span style={{ color: '#00b09b' }}>13.500.000</span>
                                                 <p hidden>/month</p>
                                             </div>
                                             <p
@@ -143,7 +142,7 @@ function PricingHomeOne({ className }) {
                                                     'text-decoration': 'line-through',
                                                 }}
                                             >
-                                                Rp 12.000.000
+                                                Rp 14.000.000
                                             </p>
                                         </div>
                                         <div className="pricig-body">
@@ -178,7 +177,7 @@ function PricingHomeOne({ className }) {
                                                     className="main-btn"
                                                     target="_blank"
                                                     rel="noreferrer"
-                                                    href="https://docs.google.com/forms/d/e/1FAIpQLSfgfJYG017I6B3n-vGlMGx3_fqx2OEooshqMQKGBBgHw23EzQ/viewform"
+                                                    href="https://docs.google.com/forms/d/e/1FAIpQLSedO58VTMPDU5H2eaHv-NmERBflUvBJql0Sz968X27oRjrWUg/viewform"
                                                 >
                                                     Daftar
                                                 </a>

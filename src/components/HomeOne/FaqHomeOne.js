@@ -47,7 +47,7 @@ function FaqHomeOne({ className }) {
                                             >
                                                 <div className="inner">
                                                     <p>
-                                                        Betul sebesar Rp 6.000.000 (enam juta
+                                                        Betul sebesar Rp 7.000.000 (enam juta
                                                         rupiah). Saat ini baru tersedia metode bayar
                                                         lunas ya.
                                                     </p>

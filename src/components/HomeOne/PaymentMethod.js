@@ -32,10 +32,7 @@ function PaymentMethod() {
                                         pembayaran full/lunas. Terbuka untuk semua kalangan.
                                     </p>
                                 </div>
-                                <div
-                                    hidden
-                                    className="appie-features-box-item  item-2 appie-features-box-5-item"
-                                >
+                                <div className="appie-features-box-item  item-2 appie-features-box-5-item">
                                     <h4 className="title">Belajar Dulu Bayar Nanti</h4>
                                     <p>
                                         Untuk metode ini, Anda harus sesuai dengan persyaratan
@@ -50,10 +47,7 @@ function PaymentMethod() {
                                         bootcamp sejenis.
                                     </p>
                                 </div>
-                                <div
-                                    hidden
-                                    className="appie-features-box-item item-3 appie-features-box-5-item"
-                                >
+                                <div className="appie-features-box-item item-3 appie-features-box-5-item">
                                     <h4 className="title">Cicilan</h4>
                                     <p>
                                         Untuk metode ini, Anda harus sesuai dengan persyaratan
@@ -68,10 +62,7 @@ function PaymentMethod() {
                                         bootcamp sejenis.
                                     </p>
                                 </div>
-                                <div
-                                    hidden
-                                    className="appie-features-box-item item-4 appie-features-box-5-item"
-                                >
+                                <div className="appie-features-box-item item-4 appie-features-box-5-item">
                                     <h4 className="title">Beasiswa</h4>
                                     <p>
                                         Untuk metode ini, Anda harus sesuai dengan persyaratan

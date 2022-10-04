@@ -31,7 +31,7 @@ function HeroHomeOne({ className }) {
                                             background: '#a4d514',
                                         }}
                                     >
-                                        3 oktober 2022
+                                        24 Oktober 2022
                                     </span>
                                 </h3>
                             </div>
