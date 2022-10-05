@@ -18,7 +18,7 @@ function HeroHomeOne({ className }) {
                                 <h1 className="appie-title">
                                     Telah dibuka pendaftaran <br />
                                     <span>
-                                        <b>Batch 2</b>
+                                        <b>Batch Terbaru</b>
                                     </span>{' '}
                                     <br />
                                 </h1>

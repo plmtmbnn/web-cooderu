@@ -6,7 +6,7 @@ function PricingHomeOne({ className }) {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="appie-section-title text-center">
-                                <h3 className="appie-title">Daftar Sekarang Batch 2</h3>
+                                <h3 className="appie-title">Daftar Sekarang Batch Terbaru</h3>
                                 <p>Periode: 24 Okt 2022</p>
                             </div>
                         </div>
