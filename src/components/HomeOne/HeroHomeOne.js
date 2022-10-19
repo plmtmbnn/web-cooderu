@@ -23,7 +23,7 @@ function HeroHomeOne({ className }) {
                                     <br />
                                 </h1>
                                 <h3>
-                                    Kelas mulai{' '}
+                                    Pendaftaran Terakhir{' '}
                                     <span
                                         style={{
                                             'text-decoration': 'underline',
